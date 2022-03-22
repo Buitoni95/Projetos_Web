@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+    body{
+        background-color: #1D232A;
+        font-family: 'Open sans', 'icones', sans-serif;
+        color: #FFFFFF
+    }
+
+    .cabecalho{
+        display: flex
+    }
+
+    .menu-lateral{
+        display: flex;
+        flex-direction: column;
+    }
